@@ -13,7 +13,7 @@ int main()
     cout << "Podaj nr telefonu: ";  cin>>nr_tel;
 
     fstream plik;
-    plik.open("wizytowka.txt",ios::out);
+    plik.open("wizytowka.txt",ios::out | ios::app);
 
     plik<<imie<<endl;
     plik<<nazwisko<<endl;
