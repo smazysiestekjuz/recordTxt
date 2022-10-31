@@ -12,5 +12,6 @@ int main()
     cout << "Podaj nazwisko: ";     cin>>nazwisko;
     cout << "Podaj nr telefonu: ";  cin>>nr_tel;
 
+    fstream plik;
     return 0;
 }
